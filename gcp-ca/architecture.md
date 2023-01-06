@@ -5,3 +5,7 @@
 - Planning
 - Designing
 - Constructing
+
+## Resources
+
+- [Cloud Architecture Center](https://cloud.google.com/architecture)
