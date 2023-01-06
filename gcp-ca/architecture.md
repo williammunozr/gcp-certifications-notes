@@ -30,6 +30,22 @@
 - Domain Knowledge
 - Technical Expertise
 
+## Wheel of Architecture
+
+- Compute
+- Storage
+- Networking
+- Geographic Location
+- Performance and Latency
+- Monitoring
+- Incident Response
+- Release Engineering
+- Cost Control
+- KPIs
+- Identity Management
+- Access Control
+- Security Risk Countermeasures
+
 ## Resources
 
 - [Cloud Architecture Center](https://cloud.google.com/architecture)
