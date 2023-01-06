@@ -16,7 +16,7 @@
 
 ### Middle Side
 
-- Architect
+- Cloud Architect
 
 ### Right Side
 
