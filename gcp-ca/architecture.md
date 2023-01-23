@@ -2,9 +2,12 @@
 
 ## What is Architecture?
 
-- Planning
-- Designing
-- Constructing
+- Designing applications
+- Planning migrations
+- Ensuring feasibility of proposed designs
+- Optimizing infrastructure
+- Building and deploying code
+- Managing data lifecycles
 
 ## Cloud Architecture
 
