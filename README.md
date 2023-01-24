@@ -6,3 +6,4 @@
 - [Cloud Service Models](gcp-ca/cloud_service_models.md)
 - [Cloud Deployment Models](gcp-ca/cloud_deployment_models.md)
 - [Geography and Regions](gcp-ca/geography_regions.md)
+- [Compute Service Options](gcp-ca/compute_service_options.md)
