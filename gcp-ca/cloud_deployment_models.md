@@ -11,3 +11,11 @@
 - Google Anthos
 - AWS Outposts
 - Azure Stack
+
+## Multi-Cloud is used for
+
+- Disaster Recovery
+
+## Public Cloud
+
+Offers computing services by third-party providers over the Internet making them available to anyone who wants to use or purchase them.
