@@ -10,3 +10,4 @@
 - [Storage & Databases](gcp-ca/storage_and_databases.md)
 - [Networking Services](gcp-ca/networking_services.md)
 - [Managed Services](gcp-ca/gpc_managed_services.md)
+- [Resource Hierarchy](gcp-ca/resource_hierarchy.md)
