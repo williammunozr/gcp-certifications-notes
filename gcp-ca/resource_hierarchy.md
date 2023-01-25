@@ -23,25 +23,7 @@
 - `Access control policies` and `configuration settings` on a parent resource are inherited by the child.
 - Each child object has exactly `one parent`. 
 
-## Domain (cloud level)
-
-## Organization (root node)
-
-### Folders
-
-- Grouping mechanism and isolation boundary.
-
-### Projects
-
-- Core organizational component.
-
-### Resources
-
-- Any service-level resource.
-
-### Labels
-
-- Categorize resources.
+![resource_hierarchy](../images/resource_hierarchy.png)
 
 ## Resources
 
