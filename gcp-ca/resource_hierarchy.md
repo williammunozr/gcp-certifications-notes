@@ -16,12 +16,12 @@
 
 - Configure and grant access to the various resources.
 - Resource Hierarchy Structure.
-- Resources are organized hierarchically using a parent/child relationship.
-- Designed to map organizational structure to Google Cloud.
-- Better management of permissions and access control.
-- Policies controlled by IAM.
-- Access control policies and configuration settings on a parent resource are inherited by the child.
-- Each child object has exactly one parent. 
+- Resources are organized `hierarchically` using a `parent/child relationship`.
+- Designed to `map organizational structure` to Google Cloud.
+- Better management of `permissions` and `access control`.
+- Policies controlled by `IAM`.
+- `Access control policies` and `configuration settings` on a parent resource are inherited by the child.
+- Each child object has exactly `one parent`. 
 
 ## Domain (cloud level)
 
