@@ -42,3 +42,8 @@
 ### Labels
 
 - Categorize resources.
+
+## Resources
+
+- [Resource Hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy)
+- [Organizations & Resource Hierarchy](https://www.youtube.com/watch?v=jJOZUQTwdLk)
