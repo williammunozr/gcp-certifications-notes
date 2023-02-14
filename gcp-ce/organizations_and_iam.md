@@ -129,11 +129,9 @@
 
 - You can export billing data for later analysis or for compliance reasons.
 - Billing data can be exported to BigQuery.
-
-
-
-
-
-
-
+- You can set multiple alert percentages.
+- By default, three percentages are set: 50 percent, 90 percent, and 100 percent.
+- If you'd like more than three alerts, you can click `Add Item` in the `Set Budget Alerts` section to add additional alert thresholds.
+- When that percentage of a budget has been spent, it will notify billing administrators and billing account users by email.
+- To respond to alerts programmatically, you can have notifications sent to a `Pub/Sub` topic by checking the appropriate box in the `Manage Notification` sections.
 
