@@ -70,6 +70,7 @@
 - Service accounts do `not` have passwords, and cannot log in via browsers or cookies.
 - You can let other users or service accounts impersonate a service account.
 - Service accounts do `not` belong to your Google Workspace domain, unlike users accounts.
+- Users can create up to 100 service accounts per project.
 
 ### Service Account Use Case
 
@@ -78,9 +79,61 @@
 - You can create a service account that has access to the database.
 - You can assign that service account to the application so that the application can execute queries on behald of users without having to grant database access to those users.
 
-### Services Accounts as Resources or Identities
+### Service Accounts as Resources or Identities
 
 - Sometimes service accounts are treat them as resources and sometimes as identities. 
 - When we assign a role to a service account, we are treating it as an identity.
 - When we give users permissions to access a service account, we are treating it as a resource.
+
+### Types of Service Accounts
+
+- User-managed service accounts.
+- Google-managed service accounts.
+
+
+## Billing
+
+- The Google Cloud Billing API provides a way for you to manage how to pay for resources used.
+
+### Billing Accounts
+
+- Billing accounts store information about how to pay charges for resources used.
+- A billing account is associated with one or more projects.
+- All projects must have a billing account unless they use only free services.
+- Billing accounts can be matched to the way the company is paying their resources.
+
+### Types of Billing Accounts
+
+- Self-serve:
+	- Self-serve accounts are paid by credit card or direct debit from a bank account.
+	- The costs are charged automatically.
+- Invoiced
+	- Bills or invoices are sent to customers.
+	- This type of account is commonly used by enterprises and other large customers.
+
+### Roles Associated with Billing
+
+- Billing Account Creator, which can create new self-service billing accounts.
+- Billing Account Administrator, which manages billing accounts but cannot create them.
+- Billing Account User, which enables a user to link projects to billing accounts.
+- Billing Account Viewer, which enables a user to view billing account cost and transactions.
+
+### Billing Budgets and Alerts
+
+- Google Cloud Billing service includes an option for defining a budget and setting billing alerts.
+- Budget is associated with a billing account, not a project.
+- One or more projects can be linked to a billing account, so the budget and alerts you specify should be based on what you expect to spend for all projects linked to the billing account.
+- You can specify a particular amount or specify that your budget is the amount spent in the previous month.
+
+### Exporting Billing Data
+
+- You can export billing data for later analysis or for compliance reasons.
+- Billing data can be exported to BigQuery.
+
+
+
+
+
+
+
 
