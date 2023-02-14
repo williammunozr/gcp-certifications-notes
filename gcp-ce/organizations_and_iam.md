@@ -67,8 +67,20 @@
 
 - A `service account` is a special kind of account used by an application or compute workload.
 - A service account is identified by its email address, which is unique to the account.
-- Service accounts do not have passwords, and cannot log in via browsers or cookies.
+- Service accounts do `not` have passwords, and cannot log in via browsers or cookies.
 - You can let other users or service accounts impersonate a service account.
 - Service accounts do `not` belong to your Google Workspace domain, unlike users accounts.
 
+### Service Account Use Case
+
+- You may have an application that neeeds to access a database but you do not want to allow users of the application to access the database directly.
+- All user requests to the database should go through the application.
+- You can create a service account that has access to the database.
+- You can assign that service account to the application so that the application can execute queries on behald of users without having to grant database access to those users.
+
+### Services Accounts as Resources or Identities
+
+- Sometimes service accounts are treat them as resources and sometimes as identities. 
+- When we assign a role to a service account, we are treating it as an identity.
+- When we give users permissions to access a service account, we are treating it as a resource.
 
