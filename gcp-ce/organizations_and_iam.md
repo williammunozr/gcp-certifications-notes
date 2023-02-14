@@ -2,7 +2,7 @@
 
 ## Google Cloud Resource Hierarchy
 
-- Organizations
+- Organization
 - Folders
 - Projects
 
@@ -11,14 +11,14 @@
 - An organization is the root of the resource hierarchy and typically corresponds to a company organization.
 - Organization will have a quota of projects it can create.
 
-### Folder
+### Folders
 
 - Folders are the building blocks of multilayer organizational hierarchies. 
 - Organizations contain folders. 
 - Folders can contain other folders or projects. 
 - Folders are optional and do not have to be used.
 
-### Project
+### Projects
 
 - Projects are in some ways the most important part of the hierarchy. 
 - It is in projects that we create resources.
@@ -39,7 +39,7 @@
 - Roles are granted to users by binding a user to a role.
 - When we talk of `identities`, we mean the object we use to represent a human `user` or `service account` in Google Cloud.
 
-## There are three types of roles in Google Cloud
+### There are three types of roles in Google Cloud
 
 - Basic Roles
 - Predefined Roles
@@ -56,4 +56,14 @@
 - Predefined roles provide granular access to resources in Google Cloud, and they are specific to Google Cloud products and managed and updated by Google.
 - Custom roles allow cloud administrators to create and administer their own roles.
 - You can use most permissions in a custom role, some, such as `iam.ServiceAccounts.getAccessToken`, are not available in custom roles.
+
+### Granting Roles to Identities
+
+- It is important that permissions cannot be assigned to users.
+- Permissions can be assigned only to roles.
+- Roles are assigned to users.
+
+## Service Accounts
+
+
 
