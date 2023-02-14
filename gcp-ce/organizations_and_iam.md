@@ -14,6 +14,7 @@
 ### Folders
 
 - Folders are the building blocks of multilayer organizational hierarchies. 
+- Folders are useful for grouping departments, and other groups manage their projects separately.
 - Organizations contain folders. 
 - Folders can contain other folders or projects. 
 - Folders are optional and do not have to be used.
@@ -21,8 +22,10 @@
 ### Projects
 
 - Projects are in some ways the most important part of the hierarchy. 
+- Projects contain resources such as VMs and Cloud Storage Buckets.
 - It is in projects that we create resources.
 - Anyone with the `resourcemanager.projects.create` IAM permission can create a project.
+- Projects must have billing accounts associated with them to use services that aren't free.
 
 ### Organization Policies
 
@@ -32,6 +35,7 @@
 - IAM lets you assign permissions so that users or roles can perform specific operations in the cloud.
 - The Organization Policy Service lets you specify limits on the ways resources can be used.
 - IAM specifies `who` can do things, and the Organization Policy Service specifies `what` can be done with resources.
+- For example, a constraint can be set to block access to the serial port on all VMs in a project.
 
 ## Roles and Identities
 
@@ -65,12 +69,14 @@
 
 ## Service Accounts
 
+- Service accounts are identities that are not associated with a specific user but can be assigned to a resource like a VM.
 - A `service account` is a special kind of account used by an application or compute workload.
 - A service account is identified by its email address, which is unique to the account.
 - Service accounts do `not` have passwords, and cannot log in via browsers or cookies.
 - You can let other users or service accounts impersonate a service account.
 - Service accounts do `not` belong to your Google Workspace domain, unlike users accounts.
 - Users can create up to 100 service accounts per project.
+- Resources that are assigned to a service account can perform operations that the service account has permission to perform.
 
 ### Service Account Use Case
 
