@@ -19,4 +19,6 @@
 - [Machine Family](gcp-ce/machine_family.md)
 - [Organizations and IAM](gcp-ce/organizations_and_iam.md)
 - [Preemptible Instances](gcp-ce/preemptible_instances.md)
+- [Sole Tenancy](gcp-ce/sole_tenancy.md)
+
 
